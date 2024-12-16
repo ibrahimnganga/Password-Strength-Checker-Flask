@@ -1,0 +1,21 @@
+<!DOCTUPE html> <!DOCTYPE html>  <!-- Declaration defining this document as HTML5 -->
+<html lang="en"> <!-- Start of the HTML document, specifying language as English -->
+<head>
+	<meta charset="UTF-8"> <!-- Character encoding for the document, allowing for special characters -->
+	<title>Password Strength Checker</title>  <!-- Title of the web page that appears in the browser tab -->
+</head>
+<body>
+	<h1>Password Strength Checker</h1> <!-- Main heading of the page -->
+
+	<!-- Form for user input -->
+	<form method="POST"> <!-- The form will submit data using the POST method -->
+		<input type="password" name="password" placeholder="Enter your password" required> <!-- Password input field with a placeholder and required attribute -->
+		<button type="submit">Check Strength</button> <!-- Button to submit the form -->
+	</form>
+
+	 <!-- Conditional rendering: If 'strength' variable is passed to the template, display it -->
+	{% if strength %}
+		<h2>Password Strength; {{ strength }}</h2> <!-- Display the evaluated password strength -->
+	{% endif %}
+</body>
+</html>
