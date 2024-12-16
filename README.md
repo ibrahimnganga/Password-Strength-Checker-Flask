@@ -23,20 +23,25 @@ A simple web application built with Flask that evaluates the strength of user pa
      
   -Steps to Install
   1. Clone the Repository
-     `git clone [](https://github.com/Joe6001/Password-Strength-Checker-Flask/)`
+
+     `git clone https://github.com/Joe6001/Password-Strength-Checker-Flask/`
      
      `cd Password_Strength_Checker-Flask`
-  3. Create a virtual environment(optional but recommended):
+  2. Create a virtual environment(optional but recommended):
+
      `python -m venv "any-name-you-want"`
      
      `source venv/bin/activate`
      
      `On Windows use venv\Scripts\activate`
-  5. Install Flask
+  3. Install Flask
+     
      `pip install flask`
-  6. Run the Applicatiom
+  4. Run the Applicatiom
+     
      `python app.py` 
-  7. Access the application
+  5. Access the application
+     
       `Open your web browser and go to `http://127.0.0.1:5000`.`
 
 ## Usage
