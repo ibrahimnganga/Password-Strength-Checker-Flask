@@ -11,8 +11,11 @@ A simple web application built with Flask that evaluates the strength of user pa
 ## Technologies Used
 
  Python: The programming language used for backend development.
+	
  Flask: A lightweight web framework for building web applications.
+	
  HTML/CSS: For creating the frontend user interface.
+	
  Regular Expressions: For validating password criteria.
 
  ## Installation
