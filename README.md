@@ -75,3 +75,4 @@ The function returns a score that determines the strength category of the passwo
 
 Contributions are welcome! If you have suggestions for improvements or additional features, feel free to fork the repository and submit a pull request.
 
+Sorry for the unnecessary commenting.
